@@ -4,9 +4,9 @@
 
 // console.log(myFuncyion(5, 5));
 
-function changeBg(){
-    document.body.style.backgroundColor = "red";
-}
+// function changeBg(){
+//     document.body.style.backgroundColor = "red";
+// }
 
 // changeBg();
 
