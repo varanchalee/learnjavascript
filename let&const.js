@@ -1,15 +1,38 @@
 // ES6 let & const
-var x =5;
-var x =6;
-console.log(x);
-// console = 6 
 
-let y = 6;
-    y = 7; // y = 7 คือการประกาศใหม่
+// var x =5;
+// var x =6;
+// console.log(x);
+// at console >6 
+
+// let y = 6;
+//     y = 7; // y = 7 คือการประกาศใหม่
 //let y = 7 ;// let y = 7; คือการประกาศซ้ำ = error
-console.log(y);
+//console.log(y);
 
-const z = 10;
-const z = 11;
-console.log(z);
+//const z = 10;
+//const z = 11;
+//console.log(z);
 // const = ค่าคงที่ ประกาศซ้ำและประกาศใหม่ไม่ได้
+
+// var, let and const scoop
+
+ {// {this is scoop}
+    var x = 10;
+ }
+ console.log(x); 
+ // at console >10 สามารถเข้าถึงตัวแปรนี้จากภายนอกได้
+
+ {
+    let y = 10;
+ }
+ console.log(y);
+ // let is blog scoop
+ //ไม่สามารถเข้าถึงจากภายนอกได้
+
+ {
+     const z = 10; 
+ }
+ console.log(z);
+ // const is blog scoop
+ //ไม่สามารถเข้าถึงจากภายนอกได้
